@@ -1,0 +1,31 @@
+{
+  "name": "~TODO~",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --check . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^1.0.0-next.92",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.29.0",
+    "vite": "^2.2.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cookie": "^0.4.1",
+    "graceful-fs": "^4.2.6",
+    "hyperbee": "^1.5.4",
+    "hyperspace": "^3.19.0",
+    "string-hash": "^1.1.3",
+    "uuid": "^8.3.2"
+  }
+}
